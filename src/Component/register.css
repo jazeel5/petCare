@@ -1,0 +1,51 @@
+form {
+    text-align: center;
+}
+
+.main-container {
+    background: url('http://www.technocrazed.com/wp-content/uploads/2015/12/London-wallpaper-8.jpg') no-repeat fixed center/cover;
+    /* background: url('./nature.jpg') no-repeat fixed center/cover; */
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Register-container {
+    background-color: rgba(193, 179, 179, 0.704);
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.Register-container h1 {
+    color: rgb(0, 0, 0);
+
+
+}
+
+.Register-container input {
+    width: 400px;
+    border: 2px solid;
+    color: white;
+    background-color: transparent;
+    display: block;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: rgb(255, 214, 30) !important;
+    color: white !important;
+    margin-top: 20px !important;
+}
+
+.field {
+    margin: 50px 0;
+}
+
+.loginregkey {
+    color: white;
+}

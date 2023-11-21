@@ -1,0 +1,188 @@
+.navbar {
+    background-color: rgba(226, 116, 215, 0.462);
+    padding: 1px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navbar .menu {
+    margin: 0 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+}
+
+.sidebar {
+    display: flex;
+    background-color: rgb(3, 3, 3);
+    transition: all 2s ease-in-out;
+
+    height: 100vh;
+    color: rgb(255, 255, 255) !important;
+    width: 220px;
+    border-bottom-right-radius: 100px;
+    transition: all 2s 3s ease-in-out;
+}
+
+.main-content {
+    transition: all 2s 3s ease-in-out;
+    /* background-color: rgb(61, 255, 213); */
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.Gridcontent {
+    display: flex;
+    transition: all 2s ease-in-out;
+    /* gap: 10px; */
+
+}
+
+
+.sidebar ul li {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.sidebar div {
+    position: relative;
+    padding: 21px;
+    width: 170px;
+}
+
+.sidebar div p {
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+
+.sidebar div p:hover {
+    color: red !important;
+    background-color: rgba(78, 76, 76, 0.49);
+}
+
+.sidebar div p span {
+
+    position: relative;
+    bottom: 7px;
+    left: 40px;
+}
+
+.search {
+
+    position: relative;
+    left: 10px;
+}
+
+.search input {
+    width: 450px;
+    padding: 20px;
+    height: 17px;
+    margin: 0 5px;
+    margin-left: 25px;
+}
+
+.search .searchIcon {
+    position: relative;
+    top: 17px;
+    left: 33px;
+}
+
+.mainADD {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.mainADD .add-form,
+.mainView .add-form {
+    background-color: rgba(242, 242, 239, 0.727);
+    box-shadow: 0 0 10px 0px grey;
+    width: 900px;
+    height: 550px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.select {
+    width: 430px;
+}
+
+.GridTEXTField {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.add-form label {
+    display: block;
+    padding: 10px;
+}
+
+.add-form input {
+    display: block;
+    width: 400px;
+    font-size: 16px;
+}
+
+.OwnerForm {
+    height: 400px !important;
+}
+
+.add-form div {
+
+    margin-bottom: 5px;
+}
+
+
+.mainView {
+    min-height: 100vh;
+    width: 100%;
+
+    /* background-color: rgb(238, 238, 233); */
+    padding: 20px;
+}
+
+
+.main-card {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+
+.dashboard-card {
+    display: flex;
+    background-color: rgba(210, 221, 210, 0.62);
+    border-radius: 15px;
+    padding: 30px;
+    gap: 20px;
+}
+
+.dashboard-card .Card {
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgb(218, 209, 209);
+    box-shadow: 0 0 14px grey;
+
+}

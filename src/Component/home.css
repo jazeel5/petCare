@@ -1,0 +1,43 @@
+.Home-container {
+    margin: 40px;
+}
+
+.inside-home-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin,
+.user {
+    border-radius: 50%;
+    border: 1px solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.admin,
+.user {
+    display: block;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 0 10px rgb(169, 171, 169);
+}
+
+.admin h1,
+.user h1 {
+    color: rgba(101, 101, 109, 0.651);
+}
+
+.avtar {
+    padding: 10px;
+}
+
+.avtar div img {
+    border-radius: 50%;
+
+}

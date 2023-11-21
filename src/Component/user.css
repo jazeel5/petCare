@@ -1,0 +1,58 @@
+.navbar2 {
+    /* background: linear-gradient(rgba(218, 144, 198, 0.765), rgb(146, 145, 145)); */
+    background-color: rgba(226, 116, 215, 0.462);
+    padding: 8px;
+    padding-left: 200px;
+}
+.sidebar2 {
+    background-color: rgb(0, 0, 0);
+    padding: 2px;
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.search input {
+    width: 500px;
+    font-size: 20px;
+}
+
+.AllPet {
+    text-align: center;
+    padding: 10px;
+}
+
+.mapedItem {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+
+
+}
+
+.image img {
+    width: 500px;
+}
+
+.Grid {
+    display: flex;
+    gap: 20px;
+}
+.petdetail p{
+    font-size: 20px;
+}
+.aboutOwner p{
+    font-size: 20px;
+}
+
+.pet{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    justify-content: center;
+}
+.pet img{
+   border-radius: 30px;
+}
